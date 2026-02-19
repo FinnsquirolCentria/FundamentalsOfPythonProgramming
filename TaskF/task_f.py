@@ -270,7 +270,7 @@ def main() -> None:
                 return
 
             else:
-                print("That choice is not valid. Please select an option from 1 to 4.")
+                print("That choice is not valid. Please select an option from the menu.")
                 continue
 
             print_report_to_console(report)
@@ -293,7 +293,7 @@ def main() -> None:
                 return
 
             else:
-                print("That choice is not valid. Select an option from 1 to 3.")
+                print("That choice is not valid. Please select an option from the menu.")
 
     except KeyboardInterrupt:
         print("\nProgram interrupted by user.")
