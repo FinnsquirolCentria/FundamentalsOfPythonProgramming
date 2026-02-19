@@ -1,0 +1,5 @@
+-------------------------------------------
+Report for the period 01.01.2025-29.06.2025
+Total consumption: 4683,35 kWh
+Total production: 1440,54 kWh
+Average temperature: 4,47 °C
