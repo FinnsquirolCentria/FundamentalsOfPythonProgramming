@@ -50,6 +50,8 @@ def main():
     location = reservation[7]
     phone = reservation[8]
     email = reservation[9]
+    hourly_str = f"{hourly_price:.2f}".replace(".", ",")
+    total_str = f"{total_price:.2f}".replace(".", ",")
     # Try these
 
     print(f"Reservation number: {reservation_number}")
@@ -57,8 +59,8 @@ def main():
     print(f"Date: {finnish_day}")
     print(f"Start time: {finnish_time}")
     print(f"Number of hours: {number_of_hours}")
-    print(f"Hourly price: {hourly_price} €")
-    print(f"Total price: {total_price} €")
+    print(f"Hourly price: {hourly_str} €")
+    print(f"Total price: {total_str} €")
     print(f"Paid: {'Yes' if paid else 'No'}")
     print(f"Location: {location}")
     print(f"Phone: {phone}")
